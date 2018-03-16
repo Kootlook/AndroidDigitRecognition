@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="viewfinder_frame">#f4eeee</color>
+    <color name="viewfinder_mask">#60201616</color>
+
+</resources>

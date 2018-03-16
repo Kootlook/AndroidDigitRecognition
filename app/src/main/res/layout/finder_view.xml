@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.applications.kootlook.digitrecognition.FinderViewActivity">
+
+
+    <SurfaceView
+        android:id="@+id/previewView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible"/>
+
+    <com.applications.kootlook.digitrecognition.ViewfinderView
+        android:id="@+id/viewfinderView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#0000" />
+
+    <RelativeLayout
+        android:id="@+id/camera_button_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:id="@+id/shutter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shutter_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentRight="true"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
